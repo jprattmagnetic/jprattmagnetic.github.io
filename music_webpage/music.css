@@ -1,0 +1,70 @@
+
+BODY {
+	color : #000000;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin-left : 2%;
+	margin-right : 5%;
+	font-size : 16px;
+	background : snowblue_back.jpg;
+        bgcolor: white;
+}
+
+A:LINK, A:VISITED {
+	color : #CCFFFF;
+	text-decoration : none;
+	font-size : 16px;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+A:HOVER {
+	background-color : DodgerBlue;
+	color : pink;
+	text-decoration : none;
+	font-size :16px;
+}
+
+
+H1 {
+	color : #CCFFFF;
+	font-family : Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-size : 200%;
+	margin-bottom : em;
+	margin-left : auto;
+}
+
+H2 {
+	color : navy;
+	font-family : Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-size : 160%;
+	margin-left : auto;
+	margin-top : 2.7em;
+}
+
+
+TR {
+	color : #CCCCCC;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 16px;
+}
+
+TD {
+	color : #CCCCCC;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 16px;
+}
+
+LI {
+	color : #CCCCCC;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 16px;
+}
+
+TABLE {
+	color : #000000;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin-left : 2%;
+	margin-right : 5%;
+	font-size : 16px;
+	background : Black;
+}
+
