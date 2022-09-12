@@ -58,19 +58,19 @@ and time scales are involved, so that complete observations of the phenomenon ar
 a theoretical model of the physical process.  Theoretical models are
 typically mathematically complex, so that testing the model, or using the model to make
 predictions requires solving nonlinear partial
-differential equations using massively parallel simulation(s).
+differential equations using massively parallel simulations.
 </p>
           <p>Many astrophysical phenomena can be approximated using a fluid approach.
 In this case hydrodynamic or magnetohydrodynamic (MHD) equations
-consisting of conservation laws for mass, momentum, and energy, and
-magnetic field must be solved.  These equations may be solved on an Eulerian grid using
+consisting of conservation laws for mass, momentum, and energy, along with the evolution of the
+magnetic field, must be solved.  These equations may be solved on a fixed Eulerian grid using
 pseudospectral methods, finite-element methods (FEM), or finite-volume
-methods.  They may also be solved using Lagrangian methods which do not use a grid, for example with
+methods.  They may also be solved using Lagrangian methods which do not use a grid, or where the grid moves; For example these codes may be called
 arbitrary Lagrangian-Eulerian (ALE) codes, or smoothed particle
 hydrodynamics (SPH) codes.
 </p>
           <p>Other astrophysical phenomena require an approach that includes
-specifics of the particle dynamics or gas dynamics.  These approaches require solution
+specifics of the particle dynamics or gas dynamics.  These approaches involve solution
 of a kinetic equation for the distribution of particles in position,
 velocity, and time.  Variations on this type of equations are called the
 Boltzmann equation, the Vlasov-Poisson equations, or the Vlasov-Maxwell
